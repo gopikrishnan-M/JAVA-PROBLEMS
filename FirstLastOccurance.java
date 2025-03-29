@@ -2,9 +2,9 @@ package problems;
 
 public class FirstLastOccurance {
     public static void main(String[] args) {
-        int []arr={0,1,2,3,4,5,6,7,7,7,7,8,8,9,9,9};
+        int []arr={0,1,2,3,4,5,6,7,7,7,7,7,7,7,7,8,8,9,9,9};
         int[] res=new int[2];
-        int target=7;
+        int target=9;
         res[0]=firstLastOccurance(arr,target,true);
         if(res[0]!=-1) {
             res[1] = firstLastOccurance(arr, target, false);
